@@ -47,6 +47,11 @@ $ cd static
 $ npm install
 ```
 
+### Install Back-End Requirements
+```sh
+$ sudo pip install -r requirements.txt 
+```
+
 ### Run Back-End
 
 ```sh
@@ -91,10 +96,10 @@ After you install python, you can optionally also install python 3
 $ brew install python3
 ```
 
-Now you can check again to see if both python and pip are installed. Once pip is installed, you can download the required flask modules:
+Now you can check again to see if both python and pip are installed. Once pip is installed, you can download the required python modules:
 
 ```
-$ sudo pip install flask flask_script flask_migrate flask_bcrypt 
+$ sudo pip install -r requirements.txt 
 ```
 
 Now, you can decide on which database you wish to use. 
